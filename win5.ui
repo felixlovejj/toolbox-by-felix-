@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>301</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>AcadEref</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>“乱码编译器”by娄卫健</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QTextEdit {
+    background-image: url(vack.png);
+	border:1px solid rgb(66, 64, 65);
+color: rgb(204, 204, 204);
+	
+}
+QPushButton { 
+    color: rgb(72, 70, 70) ;
+    font-size:20px;
+	border:1px solid rgb(66, 64, 65)
+
+
+}</string>
+  </property>
+  <widget class="QTextEdit" name="textE444dit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>601</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+    background-image: url(lmfyqback.png);
+	font-size:18px;
+}</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="placeholderText">
+    <string>请输入.......</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>-20</y>
+     <width>151</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { color:rgb(254, 118, 26);
+}</string>
+   </property>
+   <property name="text">
+    <string>中文→乱码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>140</y>
+     <width>151</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { color:rgb(254, 118, 26);
+}</string>
+   </property>
+   <property name="text">
+    <string>乱码→中文</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>451</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+    background-image: url(lmfyqback.png);
+	font-size:18px;
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>请输入.......</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="mishi2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>451</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+    background-image: url(lmfyqback.png);
+	font-size:18px;
+color: rgb(204, 204, 204);
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>在此获取&amp;输入密匙...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btmenu">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>0</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {background-image:url(back4.png);
+color: rgb(255,121,32) ;}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
